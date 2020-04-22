@@ -3,33 +3,38 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>My Website</title>
+    <title>Document</title>
     <style>
-      input[type="number"] {
-        background-color: cyan;
-      }
-      input[type="text"] {
-        background-color: rgb(114, 243, 8);
-      }
-      button:hover {
-        background-color: blue;
-        color: yellowgreen;
+      .row > div {
+        background-color: darkcyan;
+        border: 2px solid black;
+        padding: 20px;
       }
     </style>
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+    />
   </head>
   <body>
-    <form action="">
-      <input type="text" name="name" placeholder=" First Name" /><br />
-      <input type="text" name="name" placeholder="Last Name" /><br />
-      <input type="number" name="name" placeholder="age" /><br />
-      <input type="password" placeholder="password" /><br />
-      <button
-        type="button"
-        onclick="document.getElementById('demo').style.display = 'none'"
-      >
-        Submit
-      </button>
-      <p id="demo">Your password will not be saved</p>
-    </form>
+    <div>
+      <p>
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Corrupti nam,
+        necessitatibus vitae nemo fugiat qui magnam quibusdam! Quas architecto
+        illum, consequuntur cumque, eveniet rerum consectetur labore dolor a,
+        necessitatibus aliquid!
+      </p>
+      <ul>
+        <li>one</li>
+        <li>two</li>
+        <li>three</li>
+      </ul>
+    </div>
+    <ol>
+      <li>first</li>
+      <li>second</li>
+      <li>third</li>
+    </ol>
+    <p>paragraph outside div</p>
   </body>
 </html>
