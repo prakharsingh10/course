@@ -1,0 +1,16 @@
+.good, .bad {
+  font-size: 18px;
+  padding: 12px;
+  border: 1px solid black;
+  margin: 20px;
+}
+
+.good {
+  background-color: #00ff98;
+  color: darkgoldenrod;
+}
+
+.bad {
+  background-color: #ff456c;
+}
+/*# sourceMappingURL=variable.css.map */
