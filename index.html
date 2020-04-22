@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Website</title>
+    <style>
+      input[type="number"] {
+        background-color: cyan;
+      }
+      input[type="text"] {
+        background-color: rgb(114, 243, 8);
+      }
+      button:hover {
+        background-color: blue;
+        color: yellowgreen;
+      }
+    </style>
+  </head>
+  <body>
+    <form action="">
+      <input type="text" name="name" placeholder=" First Name" /><br />
+      <input type="text" name="name" placeholder="Last Name" /><br />
+      <input type="number" name="name" placeholder="age" /><br />
+      <input type="password" placeholder="password" /><br />
+      <button
+        type="button"
+        onclick="document.getElementById('demo').style.display = 'none'"
+      >
+        Submit
+      </button>
+      <p id="demo">Your password will not be saved</p>
+    </form>
+  </body>
+</html>
